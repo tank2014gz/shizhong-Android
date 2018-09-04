@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/build/intermediates/incremental/mergeAnZhiShiChangDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/Users/hecaijing/Desktop/shizhong-Android/app/build/intermediates/incremental/mergeAnZhiShiChangDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/res/values-v11/styles.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "177",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "309"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "224",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "356"
-                    }
-                },
-                {
-                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
+                    "source": "/Users/hecaijing/Desktop/shizhong-Android/EaseUI_2_2_8/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "4,10,11",
                         "endColumns": "12,12,84",
                         "endOffsets": "219,531,616"
+                    }
+                },
+                {
+                    "source": "/Users/hecaijing/Desktop/shizhong-Android/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "309"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "224",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "356"
                     }
                 }
             ]

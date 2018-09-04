@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EaseUI_2_2_8/EaseUI_2_2_8.iml" filepath="$PROJECT_DIR$/EaseUI_2_2_8/EaseUI_2_2_8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShiZhongApp.iml" filepath="$PROJECT_DIR$/ShiZhongApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" filepath="$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shizhong-Android.iml" filepath="$PROJECT_DIR$/shizhong-Android.iml" />
     </modules>
   </component>
 </project>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/hecaijing/Desktop/shizhong-Android/EaseUI_2_2_8/build/intermediates/res/merged/release/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/res/values-w820dp/ease_dimens.xml",
+                    "source": "/Users/hecaijing/Desktop/shizhong-Android/EaseUI_2_2_8/res/values-w820dp/ease_dimens.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
@@ -23,10 +23,10 @@
             ]
         },
         {
-            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/res/merged/release/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/hecaijing/Desktop/shizhong-Android/EaseUI_2_2_8/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/res/values-w820dp/ease_dimens.xml",
+                    "source": "/Users/hecaijing/Desktop/shizhong-Android/EaseUI_2_2_8/res/values-w820dp/ease_dimens.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/build/intermediates/incremental/mergeAnZhiShiChangDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/Users/hecaijing/Desktop/shizhong-Android/app/build/intermediates/incremental/mergeAnZhiShiChangDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/res/values-v14/styles.xml",
+                    "source": "/Users/hecaijing/Desktop/shizhong-Android/app/src/main/res/values-v14/styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
