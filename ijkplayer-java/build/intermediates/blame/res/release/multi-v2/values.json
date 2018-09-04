@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/ijkplayer-java/build/intermediates/res/merged/release/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/ijkplayer-java/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "44",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "36",
+                        "endOffsets": "87"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/ijkplayer-java/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/ijkplayer-java/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "44",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "36",
+                        "endOffsets": "87"
+                    }
+                }
+            ]
+        }
+    ]
+}
