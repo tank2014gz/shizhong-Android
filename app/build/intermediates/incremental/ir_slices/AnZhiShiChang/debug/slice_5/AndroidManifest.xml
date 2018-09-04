@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.shizhong.view.ui"
+      android:versionCode="10"
+      android:versionName="0.5.8-debug"
+      split="lib_slice_5_apk">
+</manifest>

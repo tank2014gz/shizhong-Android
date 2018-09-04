@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/main_fragment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_tab_bars"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/black_1c1c1c"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <TextView
+                android:id="@+id/tab_home"
+                style="@style/main_tab_bar_style"
+                android:drawableTop="@drawable/selector_home_bottom_banner"
+                android:paddingLeft="3dp"
+                android:text="@string/home" />
+
+            <TextView
+                android:id="@+id/tab_jiequ"
+                style="@style/main_tab_bar_style"
+                android:checked="false"
+                android:drawableTop="@drawable/selector_jiequ_bottom_banner"
+                android:paddingLeft="3dp"
+                android:text="@string/jiequ" />
+
+            <ImageView
+                android:id="@+id/tab_camera"
+                style="@style/main_tab_bar_frame_style"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:paddingLeft="3dp"
+                android:scaleType="center"
+                android:src="@drawable/home_camera_selector" />
+
+            <FrameLayout
+                style="@style/main_tab_bar_frame_style"
+                android:clickable="false"
+                android:focusable="false" >
+
+                <TextView
+                    android:id="@+id/tab_message"
+                    style="@style/main_tab_bar_style"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/selector_message_bottom_banner"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="@string/message" />
+
+                <ImageView
+                    android:id="@+id/message_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_marginRight="20dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:src="@drawable/red_icon"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/message_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/lab_read_shape"
+                    android:focusableInTouchMode="false"
+                    android:minHeight="15dp"
+                    android:minWidth="15dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="1"
+                    android:textColor="@color/white_fefefe"
+                    android:textSize="@dimen/nick_name_size"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tab_me"
+                style="@style/main_tab_bar_style"
+                android:drawableTop="@drawable/selector_me_bottom_banner"
+                android:text="@string/me" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/take_photo_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/sz_take_prompt"
+        android:visibility="gone" />
+
+</FrameLayout>

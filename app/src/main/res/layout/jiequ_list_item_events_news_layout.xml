@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false" >
+
+    <RelativeLayout
+        android:id="@+id/item_view"
+        style="@style/item_layout_style" >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/news_image"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            fresco:placeholderImage="@drawable/sz_activity_default"
+            fresco:placeholderImageScaleType="centerCrop"
+            android:layout_gravity="right|center_vertical"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sz_activity_default" />
+
+        <TextView
+            android:id="@+id/new_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/news_image"
+            android:singleLine="true"
+            android:textColor="@color/white_fefefe"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/news_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/new_title"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/news_image"
+            android:textColor="@color/grey_808080"
+            android:textSize="@dimen/signture_size" />
+
+        <TextView
+            android:id="@+id/news_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/new_title"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/news_time"
+            android:textColor="@color/grey_808080"
+            android:textSize="@dimen/signture_size" />
+    </RelativeLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+</FrameLayout>

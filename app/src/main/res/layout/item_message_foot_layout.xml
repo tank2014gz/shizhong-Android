@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        style="@style/item_layout_style" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/icon_image"
+                android:layout_width="@dimen/head_samll_size"
+                android:layout_height="@dimen/head_samll_size"
+                fresco:roundAsCircle="true"
+                android:layout_margin="2dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:roundingBorderWidth="1dp"
+                fresco:roundingBorderColor="@color/round_view_bound_color"
+                fresco:placeholderImage="@drawable/sz_head_default"
+                fresco:placeholderImageScaleType="centerCrop"
+                android:layout_centerVertical="true"
+                />
+
+
+            <TextView
+                android:id="@+id/msg_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/lab_read_shape"
+                android:gravity="center"
+                android:maxWidth="18dp"
+                android:minHeight="15dp"
+                android:minWidth="15dp"
+                android:text="1"
+                android:textColor="@color/white_fefefe"
+                android:textSize="@dimen/nick_name_size" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/nick_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/white_fefefe"
+                    android:textSize="@dimen/nick_name_size" />
+
+                <TextView
+                    android:id="@+id/msg_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/white_fefefe"
+                    android:textSize="@dimen/nick_name_size" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+</FrameLayout>

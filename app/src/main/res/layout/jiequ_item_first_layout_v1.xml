@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:background="@color/transparent"
+    android:orientation="horizontal"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp" >
+
+
+    <ImageView
+        android:layout_marginRight="15dp"
+        android:id="@+id/crew"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_crew_street"
+        />
+    <View
+        android:layout_marginLeft="-2dp"
+        android:layout_width="0.5dp"
+        android:layout_height="50dp"
+        android:background="@color/sz_yellow"/>
+
+    <ImageView
+        android:id="@+id/rankingList"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_ranking_street"
+        />
+    <View
+        android:layout_marginRight="2dp"
+        android:layout_width="0.5dp"
+        android:layout_height="50dp"
+        android:background="@color/sz_yellow"/>
+
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/nearby"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_local_street"
+        />
+    <View
+        android:visibility="visible"
+        android:layout_marginRight="2dp"
+        android:layout_width="0.5dp"
+        android:layout_height="50dp"
+        android:background="@color/sz_yellow"/>
+
+    <ImageView
+        android:visibility="visible"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/music_icon"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_local_street"
+        />
+</LinearLayout>

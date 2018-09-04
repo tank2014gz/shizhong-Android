@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/top_bar_layout_with_left_black" />
+
+    <LinearLayout
+        android:id="@+id/local_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/my_music_icon"
+                android:drawablePadding="12sp"
+                android:gravity="center_vertical"
+                android:text="我的音乐"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/my_music_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="(5)"
+                android:textColor="@color/text_gray2" />
+        </LinearLayout>
+
+        <library.PullToRefreshListView
+            android:id="@+id/pull_to_refresh_local_list"
+            style="@style/SZListViewStyle_translation"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrHeaderSubTextColor="@android:color/white"
+            ptr:ptrHeaderTextColor="@android:color/white"
+            ptr:ptrListViewExtrasEnabled="true"
+            ptr:ptrMode="both"
+            ptr:ptrScrollingWhileRefreshingEnabled="true"
+            ptr:ptrShowIndicator="false" >
+        </library.PullToRefreshListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/net_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/music"
+                android:drawablePadding="12sp"
+                android:gravity="center_vertical"
+                android:text="音乐"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/net_music_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="(5)"
+                android:textColor="@color/text_gray2" />
+        </LinearLayout>
+
+        <library.PullToRefreshListView
+            android:id="@+id/pull_to_refresh_net_list"
+            style="@style/SZListViewStyle_translation"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrHeaderSubTextColor="@android:color/white"
+            ptr:ptrHeaderTextColor="@android:color/white"
+            ptr:ptrListViewExtrasEnabled="true"
+            ptr:ptrMode="both"
+            ptr:ptrScrollingWhileRefreshingEnabled="true"
+            ptr:ptrShowIndicator="false" >
+        </library.PullToRefreshListView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/item_view"
+        style="@style/item_layout_style" >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            fresco:roundAsCircle="true"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundingBorderWidth="1dp"
+            fresco:roundingBorderColor="@color/round_view_bound_color"
+            fresco:placeholderImage="@drawable/sz_head_default"
+            fresco:placeholderImageScaleType="centerCrop"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/image_id"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/nick_name"
+            android:src="@drawable/man_icon" />
+
+        <TextView
+            android:id="@+id/signture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nick_name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/image_id"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/grey_bbbbbb"
+            android:textSize="@dimen/nick_name_size" />
+
+        <ImageView
+            android:id="@+id/attention_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/add_attention"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/has_attention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:padding="6dp"
+            android:text="已关注"
+            android:textColor="@color/grey_bbbbbb"
+            android:textSize="@dimen/signture_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:background="@color/white_fefefe"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black_262626"
+        android:text="选择排序方式"
+        android:padding="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/type_list"
+        android:listSelector="@color/transparent"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+
+</LinearLayout>

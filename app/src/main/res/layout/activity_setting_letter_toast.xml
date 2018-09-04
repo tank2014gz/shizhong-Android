@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/top_bar_layout_with_left_black" >
+    </include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:gravity="bottom|left"
+        android:paddingBottom="6dp"
+        android:paddingLeft="16dip"
+        android:paddingTop="6dp"
+        android:text="新消息提醒"
+        android:textColor="@color/white_fefefe"
+        android:visibility="gone" />
+
+    <View
+        style="@style/QYRSettingItemLineStyle"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/rl_switch_notification"
+        style="@style/QYRSettingItemStyle" >
+
+        <TextView
+            style="@style/QYRSettingItemLeftStyle"
+            android:layout_gravity="center_vertical"
+            android:text="接受新消息通知" />
+
+        <ToggleButton
+            android:id="@+id/iv_switch_notification"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ios7_btn"
+            android:button="@null"
+            android:checked="true"
+            android:text=" "
+            android:textOff=" "
+            android:textOn=" "
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+    <FrameLayout
+        android:id="@+id/rl_switch_sound"
+        style="@style/QYRSettingItemStyle" >
+
+        <TextView
+            style="@style/QYRSettingItemLeftStyle"
+            android:layout_gravity="center_vertical"
+            android:text="声音" />
+
+        <ToggleButton
+            android:id="@+id/iv_switch_sound"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/ios7_btn"
+            android:button="@null"
+            android:checked="true"
+            android:text=" "
+            android:textOff=" "
+            android:textOn=" "
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+    <FrameLayout
+        android:id="@+id/rl_switch_vibrate"
+        style="@style/QYRSettingItemStyle" >
+
+        <TextView
+            style="@style/QYRSettingItemLeftStyle"
+            android:layout_gravity="center_vertical"
+            android:text="震动" />
+
+        <ToggleButton
+            android:id="@+id/iv_switch_vibrate"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ios7_btn"
+            android:button="@null"
+            android:checked="true"
+            android:text=" "
+            android:textOff=" "
+            android:textOn=" "
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+</LinearLayout>

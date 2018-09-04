@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="holo_red_light">#FFFF0000</color>
+    <color name="first_page_bottom_banner">#E62F2A44</color>
+    <color name="first_page_home_top_banner">#FF393452</color>
+    <color name="text_light_corlor_yellow">#FFFFF024</color>
+    <color name="text_dance_type_color">#FF393452</color>
+    <color name="text_light_dance_type_color">#FF393452</color>
+    <color name="text_bg_light_dance_type_color">#FFFFF024</color>
+    <color name="default_image_background">#FFF0F0F0</color>
+    <color name="image_bottom_bar_color">#E62A2A2A</color>
+    <color name="sz_yellow">#FFFEEF00</color>
+    <color name="sz_yellow_clicked">#9DFEEF00</color>
+
+    <drawable name="translation">#00000000</drawable>
+
+    <color name="purple">#FF7C7DA9</color>
+    <color name="purple_6b5c99">#FF6B5C99</color>
+    <color name="purple_393551">#FF393551</color>
+    <color name="purple_51497d">#FF51497D</color>
+    <color name="gray_cc2a2a2a">#CC2A2A2A</color>
+    <color name="black_1c1c1c">#1c1c1c</color>
+    <color name="black_555555">#555555</color>
+    <color name="black_2c2b2b">#2c2b2b</color>
+    <color name="top_bar_normal_bg">#1c1c1c</color>
+    <color name="black_2a2a2a">#2a2a2a</color>
+    <color name="black_3a3a3a">#3A3A3A</color>
+    <color name="black_202020">#202020</color>
+    <color name="black_262626">#262626</color>
+    <color name="black_484848">#484848</color>
+    <color name="balck_373839">#373839</color>
+    <color name="black_38363f">#38363f</color>
+    <color name="balck_353535">#353535</color>
+
+    <color name="black_747474">#747474</color>
+    <color name="yellow_fef122">#FFF1FE22</color>
+    <color name="white_fefefe">#FFFFFFFF</color>
+    <color name="yellow_fdda00">#FDDA00</color>
+    <color name="yellow_fff024">#FFF024</color>
+    <color name="common_bg">#FFFEFEFE</color>
+    <color name="bottom_text_color_normal">#FFF024</color>
+    <color name="voip_interface_text_color">#1c1c1c</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066ff</color>
+    <color name="btn_gray_normal">#C0C0C0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="card_background">@android:color/white</color>
+    <color name="card_shadow">#00000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">@android:color/transparent</color>
+    <color name="black_de">#DE000000</color>
+    <!-- 三级联动对话框 -->
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="mpc_start_color">#FF00FFED</color>
+    <color name="mpc_end_color">#FFED00FF</color>
+    <!-- 没有被渐变填充区域的颜色 -->
+    <color name="mpc_default_color">#1AFFFFFF</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="color_orange1">#f26b4b</color>
+    <color name="camera_bg">#552c2c2c</color>
+    <color name="camera_progress">#2980B9</color>
+    <color name="camera_progress_split">#005084</color>
+    <color name="camera_progress_three">#24ff00</color>
+    <color name="camera_progress_overflow">#1b5d89</color>
+    <color name="camera_progress_delete">#f68b2b</color>
+    <color name="transparent">#00000000</color>
+    <color name="camera_theme_selected_bgcolor">#2980B9</color>
+    <color name="title_background_color">#fcb840</color>
+    <color name="text_gray2">#ffC3C3C3</color>
+    <color name="btn_pressed_green_solid">#55000000</color>
+    <color name="gray_normal">#CC2A2A2A</color>
+    <color name="grey_818181">#FF818181</color>
+    <color name="btn_logout_pressed">#CC2A2A2A</color>
+    <color name="gray_pressed">#CC2b2b2b</color>
+    <color name="btn_logout_normal">#CC2b2b2b</color>
+    <color name="grid_state_focused">#CC2b2b2b</color>
+    <color name="grid_state_pressed">#CC2b2b2b</color>
+    <color name="orange">#FFF024</color>
+    <color name="black_70">#70000000</color>
+    <color name="grey_262626">#262626</color>
+    <color name="black_2c2c2c">#2c2c2c</color>
+    <color name="line_grey">#4E5151</color>
+    <color name="line_video_bm">#1B1B1B</color>
+    <color name="grey_808080">#808080</color>
+    <color name="grey_bbbbbb">#BBBBBB</color>
+    <color name="grey_393452">#393452</color>
+    <color name="grey_4e4e4e">#4e4e4e</color>
+    <color name="black_9c2a2a2a">#9C2a2a2a</color>
+    <color name="black_9c202020">#9C202020</color>
+    <color name="black_E6000000">#E6000000</color>
+    <color name="black_4D00000">#4D000000</color>
+	<color name="import_video_thumb_mask">#FF151515</color>
+	<color name="translucent_background_75">#BF000000</color>
+	<!-- 标题文字 -->
+	<color name="color_23232b">#23232b</color>
+	<color name="button_black_background">#424253</color>
+
+    <color name="round_view_bound_color">#bbbbbb</color>
+</resources>

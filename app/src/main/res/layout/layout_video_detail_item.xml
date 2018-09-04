@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/list_item"
+        style="@style/item_layout_style" >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/user_head"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            fresco:roundAsCircle="true"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundingBorderWidth="1dp"
+            fresco:roundingBorderColor="@color/round_view_bound_color"
+            fresco:placeholderImage="@drawable/sz_head_default"
+            fresco:placeholderImageScaleType="centerCrop"
+            android:src="@drawable/sz_head_default" />
+
+        <TextView
+            android:id="@+id/user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/user_head"
+            android:ellipsize="end"
+            android:maxEms="15"
+            android:singleLine="true"
+            android:textColor="@color/white_fefefe"
+            android:textSize="@dimen/nick_name_size" />
+
+        <TextView
+            android:id="@+id/comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/user_nickname"
+            android:textColor="@color/white_fefefe"
+            android:textSize="@dimen/nick_name_size" />
+        <TextView
+            android:id="@+id/like_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/selector_like"
+            android:drawablePadding="5dp"
+            android:textColor="@color/white_fefefe" />
+
+        <TextView
+            android:id="@+id/user_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_nickname"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/like_comment"
+            android:layout_toRightOf="@+id/user_head"
+            android:textColor="@color/white_fefefe"
+            android:textSize="@dimen/signture_size" />
+
+
+    </RelativeLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+</FrameLayout>

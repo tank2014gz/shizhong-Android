@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/icon_music_bg"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:background="@color/sz_yellow"
+        android:layout_height="@dimen/pickerview_topbar_height">
+        <ImageView
+            android:id="@+id/left_bt"
+            android:paddingLeft="12dp"
+            android:paddingRight="60dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/title_tv"
+            android:textSize="17sp"
+            android:textColor="@color/balck_353535"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="音乐列表"
+            />
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginRight="12dp"
+                android:padding="12dp"
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_music_search"
+                />
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/btn_more"
+                android:src="@drawable/icon_music_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RadioGroup
+        android:layout_below="@+id/title_bar"
+        android:id="@+id/music_radio_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/like_music"
+            android:textSize="@dimen/size_14sp"
+            android:textColor="@color/white_fefefe"
+            android:text="喜欢的音乐"
+            android:gravity="center"
+            android:padding="12dp"
+            android:button="@null"
+            android:layout_weight="1"
+            android:checked="true"
+            android:background="@drawable/black_btn_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/local_music"
+            android:textSize="@dimen/size_14sp"
+            android:textColor="@color/white_fefefe"
+            android:gravity="center"
+            android:padding="12dp"
+            android:button="@null"
+            android:text="本地音乐"
+            android:background="@drawable/black_btn_selector"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:background="@color/grey_818181"
+        android:id="@+id/bottom_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <com.shizhong.view.ui.base.view.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_below="@+id/music_radio_group"
+        android:layout_above="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.shizhong.view.ui.base.view.PullableListView
+            android:id="@+id/content_view"
+            style="@style/SZListViewStyle_translation"/>
+
+        <include layout="@layout/load_more" />
+    </com.shizhong.view.ui.base.view.PullToRefreshLayout>
+
+
+
+
+
+
+</RelativeLayout>

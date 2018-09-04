@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_262626"
+            android:gravity="center_vertical"
+            android:paddingBottom="6dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="6dp" >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/user_head"
+                android:layout_width="@dimen/head_samll_size"
+                android:layout_height="@dimen/head_samll_size"
+                fresco:roundAsCircle="true"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:roundingBorderWidth="1dp"
+                fresco:roundingBorderColor="@color/round_view_bound_color"
+                fresco:placeholderImage="@drawable/sz_head_default"
+                fresco:placeholderImageScaleType="centerCrop"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/nick_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textColor="@color/white_fefefe"
+                android:textSize="@dimen/nick_name_size" />
+
+            <TextView
+                android:id="@+id/update_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:singleLine="true"
+                android:textColor="@color/white_fefefe"
+                android:textSize="@dimen/nick_name_size" />
+        </LinearLayout>
+
+        <include layout="@layout/item_danamic_video_no_head_layout" />
+    </LinearLayout>
+
+</FrameLayout>

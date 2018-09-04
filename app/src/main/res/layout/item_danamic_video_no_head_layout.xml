@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_3a3a3a" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/video_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/video_cover_page"
+                android:layout_width="270dp"
+                android:layout_height="270dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                fresco:roundAsCircle="false"
+                fresco:roundedCornerRadius="0dp"
+                fresco:actualImageScaleType="focusCrop"
+                android:src="@drawable/sz_activity_default"
+                fresco:placeholderImage="@drawable/sz_activity_default"
+                fresco:placeholderImageScaleType="centerCrop"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:id="@+id/video_play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/video_play_btn"
+                android:visibility="visible" />
+
+            <ProgressBar
+                android:id="@+id/loading_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="false"
+                android:indeterminateDrawable="@drawable/dialog_style_xml_icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_gravity="bottom"
+                android:background="@color/black_3a3a3a"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp" >
+
+                <TextView
+                    android:id="@+id/play_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00: 00"
+                    android:textColor="@android:color/white" />
+
+                <SeekBar
+                    android:id="@+id/video_seek_bar"
+                    style="@style/Widget.SeekBar.Normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_weight="1"
+                    android:max="0"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp" />
+
+                <TextView
+                    android:id="@+id/video_play_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00: 00"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/des_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColor="@color/white_fefefe"
+            android:textSize="14sp" />
+
+        <include layout="@layout/replay_layout2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_gravity="bottom"
+        android:background="@color/line_video_bm" />
+
+</FrameLayout>

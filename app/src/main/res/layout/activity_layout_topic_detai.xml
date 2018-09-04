@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            layout="@layout/top_bar_layout_with_left_black"
+            android:gravity="center_vertical" >
+        </include>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/pull_to_refresh_listview_layout" >
+            </include>
+
+            <FrameLayout
+                android:id="@+id/prgress_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80000000" >
+
+                <ProgressBar
+                    android:id="@+id/upload_progress_bar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:progressDrawable="@drawable/progress_bar_drawable" />
+
+                <TextView
+                    android:id="@+id/upload_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="正在上传..."
+                    android:textColor="@android:color/white" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/video_upload_fail_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#9D3F3F3F"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    android:text="上传失败！"
+                    android:textColor="@color/sz_yellow"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/reupload_btn"
+                    android:layout_width="72dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/yellow_btn_selector"
+                    android:gravity="center"
+                    android:text="重新上传"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="54dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/grey_circle_coner_shape"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tab_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="12dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/home_camera_selector" />
+
+</FrameLayout>

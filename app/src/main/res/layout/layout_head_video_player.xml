@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_484848"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/video_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/video_cover_page"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            fresco:roundAsCircle="false"
+            fresco:roundedCornerRadius="0dp"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:placeholderImage="@drawable/sz_activity_default"
+            fresco:placeholderImageScaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:id="@+id/video_play_btn"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/video_play_btn"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/dialog_style_xml_icon" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <TextView
+            android:id="@+id/play_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/video_seek_bar"
+            style="@style/Widget.SeekBar.Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            android:max="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp" />
+
+        <TextView
+            android:id="@+id/video_play_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="6dp" >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/user_head"
+            android:layout_width="@dimen/head_samll_size"
+            android:layout_height="@dimen/head_samll_size"
+            fresco:roundAsCircle="true"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundingBorderWidth="1dp"
+            fresco:roundingBorderColor="@color/round_view_bound_color"
+            fresco:placeholderImage="@drawable/sz_activity_default"
+            fresco:placeholderImageScaleType="centerCrop"
+             />
+
+        <TextView
+            android:id="@+id/user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/user_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/nick_name_size" />
+
+        <TextView
+            android:id="@+id/brower_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/user_nickname"
+            android:drawableLeft="@drawable/sz_watch"
+            android:drawablePadding="3dp"
+            android:textColor="@color/grey_bbbbbb"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/video_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/user_nickname"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/user_head"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/nick_name_size" />
+
+        <TextView
+            android:id="@+id/attention_btn"
+            android:layout_width="52dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/yellow_btn_selector"
+            android:gravity="center"
+            android:textColor="@color/black_2c2b2b" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/video_des_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_484848"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <include layout="@layout/replay_layout" >
+    </include>
+
+    <LinearLayout
+        android:id="@+id/reply_latout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/black_202020"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="12dp" >
+
+        <TextView
+            android:id="@+id/video_replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:paddingBottom="6dp"
+            android:textColor="@color/white_fefefe"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

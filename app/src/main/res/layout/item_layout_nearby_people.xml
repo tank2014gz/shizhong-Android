@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false" >
+
+    <RelativeLayout
+        android:id="@+id/persom_item"
+        style="@style/item_layout_style" >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/person_head"
+            android:layout_width="@dimen/head_samll_size"
+            android:layout_height="@dimen/head_samll_size"
+            fresco:roundAsCircle="true"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundingBorderWidth="1dp"
+            fresco:roundingBorderColor="@color/round_view_bound_color"
+            fresco:placeholderImage="@drawable/sz_head_default"
+            fresco:placeholderImageScaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/sz_head_default" />
+
+        <LinearLayout
+            android:id="@+id/layout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/person_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/nick_name_size" />
+
+            <ImageView
+                android:id="@+id/person_attention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/add_attention_nearby" />
+
+            <TextView
+                android:id="@+id/has_attent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:padding="6dp"
+                android:text="@string/has_attent"
+                android:textColor="@color/grey_bbbbbb"
+                android:textSize="@dimen/signture_size"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/person_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/person_head"
+            android:singleLine="true"
+            android:textColor="@color/white_fefefe"
+            android:textSize="@dimen/nick_name_size" />
+
+        <ImageView
+            android:id="@+id/person_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/person_nickname"
+            android:src="@drawable/man_icon" />
+
+        <TextView
+            android:id="@+id/person_des"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/person_nickname"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toLeftOf="@+id/layout_right"
+            android:layout_toRightOf="@+id/person_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/white_fefefe"
+            android:textSize="@dimen/signture_size" />
+    </RelativeLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+</FrameLayout>

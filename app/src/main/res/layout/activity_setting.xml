@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_2c2c2c"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/top_bar_layout_with_left_black" >
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/rl_setting_toast_letter"
+                style="@style/QYRSettingItemStyle"
+                android:clickable="true" >
+
+                <TextView
+                    style="@style/QYRSettingItemLeftStyle"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="私信通知" />
+
+                <TextView
+                    android:id="@+id/tv_setting_toast_letter"
+                    style="@style/QYRSettingItemRightStyle" />
+            </FrameLayout>
+
+            <View style="@style/QYRSettingItemLineStyle" />
+
+            <FrameLayout
+                android:id="@+id/rl_setting_message_toast"
+                style="@style/QYRSettingItemStyle"
+                android:clickable="true" >
+
+                <TextView
+                    style="@style/QYRSettingItemLeftStyle"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="消息设置" />
+
+                <TextView
+                    android:id="@+id/tv_setting_message_toast"
+                    style="@style/QYRSettingItemRightStyle" />
+            </FrameLayout>
+
+            <View style="@style/QYRSettingItemLineStyle" />
+
+            <FrameLayout
+                android:id="@+id/rl_setting_invite_friends"
+                style="@style/QYRSettingItemStyle"
+                android:clickable="true" >
+
+                <TextView
+                    style="@style/QYRSettingItemLeftStyle"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="邀请好友" />
+
+                <TextView
+                    android:id="@+id/tv_setting_invite_friends"
+                    style="@style/QYRSettingItemRightStyle" />
+            </FrameLayout>
+
+            <View
+                style="@style/QYRSettingItemLineStyle"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/rl_setting_hight_opinion"
+                style="@style/QYRSettingItemStyle"
+                android:clickable="true"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/QYRSettingItemLeftStyle"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="给个好评" />
+
+                <TextView
+                    android:id="@+id/tv_setting_hight_opinion"
+                    style="@style/QYRSettingItemRightStyle" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/rl_setting_suggestion"
+                style="@style/QYRSettingItemStyle"
+                android:layout_marginTop="12dp"
+                android:clickable="true" >
+
+                <TextView
+                    style="@style/QYRSettingItemLeftStyle"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="意见反馈" />
+
+                <TextView
+                    android:id="@+id/tv_setting_suggestion"
+                    style="@style/QYRSettingItemRightStyle" />
+            </FrameLayout>
+
+            <View style="@style/QYRSettingItemLineStyle" />
+
+            <FrameLayout
+                android:id="@+id/rl_setting_about"
+                style="@style/QYRSettingItemStyle"
+                android:clickable="true" >
+
+                <TextView
+                    style="@style/QYRSettingItemLeftStyle"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="关于失重" />
+
+                <TextView
+                    android:id="@+id/tv_setting_about"
+                    style="@style/QYRSettingItemRightStyle" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/rl_setting_clear_cache"
+                style="@style/QYRSettingItemStyle"
+                android:layout_marginTop="12dp"
+                android:clickable="true" >
+
+                <TextView
+                    style="@style/QYRSettingItemLeftStyle"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="清空缓存" />
+
+                <TextView
+                    android:id="@+id/tv_setting_clear_cache"
+                    style="@style/QYRSettingItemRightStyle" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/quite"
+        style="@style/yellow_button_style"
+        android:text="@string/quite_app" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/edit_layout_window"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_484848"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <ImageView
+                android:id="@+id/chart_iemo_btn_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chatting_biaoqing_btn" />
+
+            <ImageView
+                android:id="@+id/chart_key_btn_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chatting_setmode_key_btn"
+                android:visibility="gone" />
+
+            <com.shizhong.view.ui.base.view.PasteEditText
+                android:id="@+id/chart_edit_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_marginRight="12dip"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_corner_white1"
+                android:maxLines="3"
+                android:minHeight="32dp"
+                android:padding="6dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/btn_send_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:padding="6dp"
+                android:text="@string/button_send"
+                android:textColor="@color/white_fefefe"
+                android:textSize="13sp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_face_container"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@color/black_484848"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

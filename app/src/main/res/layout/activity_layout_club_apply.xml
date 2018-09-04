@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            layout="@layout/top_bar_layout_with_left_black" >
+        </include>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/club_logo_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                fresco:roundAsCircle="true"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:roundingBorderWidth="1dp"
+                fresco:roundingBorderColor="@color/round_view_bound_color"
+                fresco:placeholderImage="@drawable/sz_head_default"
+                fresco:placeholderImageScaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/sz_head_default" />
+
+            <TextView
+                android:id="@+id/des_logo"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#9a000000"
+                android:gravity="center"
+                android:text="上传LOGO"
+                android:textColor="@color/white_fefefe"
+                android:textSize="@dimen/nick_name_size" />
+        </FrameLayout>
+
+        <LinearLayout
+            style="@style/edid_layout_style"
+            android:layout_marginTop="18dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/club_lable_name"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <com.shizhong.view.ui.base.view.ClearEditText
+                android:id="@+id/club_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/club_name_hine"
+                android:paddingRight="12dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="#B1B1B1"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/edid_layout_style"
+            android:layout_marginTop="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/club_phone_name"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <com.shizhong.view.ui.base.view.ClearEditText
+                android:id="@+id/club_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/club_phone_hine"
+                android:inputType="number"
+                android:paddingRight="12dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="#B1B1B1"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/edid_layout_style"
+            android:layout_height="88dp"
+            android:layout_marginTop="6dp"
+            android:paddingRight="6dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                android:text="@string/club_detail_address"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="3dp" >
+
+                <TextView
+                    android:id="@+id/club_address_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="北京市 朝阳区"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#B1B1B1"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/club_address_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="bottom"
+                    android:hint="详细街道"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#B1B1B1"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/edid_layout_style"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="@string/club_des_lable"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/club_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/frame_white_shap"
+                android:gravity="top|left"
+                android:hint="@string/club_des_hine"
+                android:minHeight="130dp"
+                android:padding="6dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="#B1B1B1"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/club_apply"
+        style="@style/yellow_button_style"
+        android:text="@string/apply_club" />
+
+</FrameLayout>

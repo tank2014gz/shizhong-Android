@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 滤镜 -->
+    <string-array name="theme_filter_order">
+        <item>Empty</item>
+        <item>7AM</item>
+        <item>1974</item>
+        <item>Absinth</item>
+        <item>Stark</item>
+        <item>Papilio</item>
+        <item>Ice</item>
+        <item>Professional</item>
+        <item>Smoky</item>
+        <item>Stage</item>
+    </string-array>
+    <!-- 主题 -->
+    <string-array name="theme_order">
+        <item>Shining</item>
+        <item>Dreamworld</item>
+        <item>Love</item>
+        <item>Fashion</item>
+        <item>SunShine</item>
+        <item>Magic</item>
+        <item>Hawaii</item>
+        <item>Pulse</item>
+    </string-array>
+
+    <integer-array name="theme_version">
+        <item>0</item> <!-- THEME_MUSIC_ASSETS MusicAssets.zip -->
+        <item>0</item> <!-- THEME_EMPTY Empty.zip -->
+        <item>1</item> <!-- THEME_VIDEO_COMMON Common.zip -->
+        <item>0</item> <!-- THEME_FILTER_ASSETS FilterAssets.zip -->
+        <item>1</item> <!-- THEME_MUSIC_VIDEO_ASSETS MusicVideoAssets.zip -->
+    </integer-array>
+
+    <string-array name="message">
+        <item>新朋友</item>
+        <item>喜欢</item>
+        <item>评论</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="share_names">
+        <item>微博</item>
+        <item>微信</item>
+        <item>朋友圈</item>
+        <item>QQ好友</item>
+        <item>QQ空间</item>
+    </string-array>
+
+</resources>

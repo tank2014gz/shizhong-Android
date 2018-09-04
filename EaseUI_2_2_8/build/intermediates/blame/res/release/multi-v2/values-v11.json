@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/res/merged/release/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/res/values-v11/ease_styles.xml",
+                    "from": {
+                        "startLines": "3,7,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "56,226,402",
+                        "endLines": "5,9,11",
+                        "endColumns": "12,12,91",
+                        "endOffsets": "220,396,489"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,224,399",
+                        "endLines": "4,7,8",
+                        "endColumns": "12,12,84",
+                        "endOffsets": "219,394,479"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/res/values-v11/ease_styles.xml",
+                    "from": {
+                        "startLines": "3,7,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "56,226,402",
+                        "endLines": "5,9,11",
+                        "endColumns": "12,12,91",
+                        "endOffsets": "220,396,489"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,224,399",
+                        "endLines": "4,7,8",
+                        "endColumns": "12,12,84",
+                        "endOffsets": "219,394,479"
+                    }
+                }
+            ]
+        }
+    ]
+}

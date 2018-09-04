@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cut_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/selection_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="6dp"
+            android:textColor="@color/white_fefefe"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="拖动选择你要裁剪的片段"
+            android:textColor="@color/text_gray2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white_fefefe"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/white_fefefe"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white_fefefe"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <!-- 视频截图 -->
+
+    <com.shizhong.view.ui.base.view.HorizontalScrollViewEx
+        android:id="@+id/video_thumbnails_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/video_thumbnails"
+            android:layout_width="wrap_content"
+            android:layout_height="56dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.shizhong.view.ui.base.view.HorizontalScrollViewEx>
+
+    <!-- 图片覆盖 -->
+
+    <com.shizhong.view.ui.base.view.SelectionView
+        android:id="@+id/video_selection"
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:layout_below="@+id/space"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/video_thumbnails_background"
+        android:layout_alignTop="@+id/video_thumbnails_background"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip" >
+
+        <ImageView
+            android:id="@+id/video_selection_seek_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cut_video_cursor_icon" />
+
+        <ImageView
+            android:id="@+id/video_selection_seek_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/cut_video_cursor_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/video_mode_controller_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video_thumbnails_background" >
+
+        <RadioGroup
+            android:id="@+id/radiogroup_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:visibility="visible" >
+
+            <RadioButton
+                android:id="@+id/change_rectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cut_landscape_selector"
+                android:button="@null"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/change_square"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cut_square_selector"
+                android:button="@null"
+                android:checked="false" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</RelativeLayout>

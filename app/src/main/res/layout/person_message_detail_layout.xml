@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:round="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_262626"
+    android:clickable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/skip_info_detail"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/member_head_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/topic_detail_bg"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp" >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/member_head"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                fresco:roundAsCircle="true"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:roundingBorderWidth="2dp"
+                fresco:roundingBorderColor="@color/round_view_bound_color"
+                fresco:placeholderImage="@drawable/sz_head_default"
+                fresco:placeholderImageScaleType="centerCrop"
+                android:layout_centerVertical="true"
+                 />
+
+            <TextView
+                android:id="@+id/member_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/member_head"
+                android:textColor="@color/white_fefefe"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/member_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/member_nickname"
+                android:padding="3dp" />
+
+            <TextView
+                android:id="@+id/memeber_signture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/member_nickname"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/member_head"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/white_fefefe"
+                android:textSize="@dimen/signture_size" />
+
+            <ImageView
+                android:id="@+id/add_attent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/memeber_signture"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/member_head"
+                android:src="@drawable/add_attention"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/user_modify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/memener_home_modify_icon" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <include layout="@layout/person_message_content" >
+    </include>
+
+</LinearLayout>

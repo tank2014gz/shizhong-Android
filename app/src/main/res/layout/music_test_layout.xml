@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+    <library.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_local_list"
+        style="@style/SZListViewStyle_translation"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrHeaderSubTextColor="#000000"
+        ptr:ptrHeaderTextColor="#000000"
+        ptr:ptrListViewExtrasEnabled="true"
+        ptr:ptrMode="both"
+        ptr:ptrScrollingWhileRefreshingEnabled="true"
+        ptr:ptrShowIndicator="false" >
+    </library.PullToRefreshListView>
+
+</LinearLayout>

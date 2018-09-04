@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/top_bar_layout_with_left_black" >
+    </include>
+
+    <FrameLayout
+        android:id="@+id/fl_setting_new_friends"
+        style="@style/QYRSettingItemStyle"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/QYRSettingItemLeftStyle"
+            android:layout_gravity="center_vertical"
+            android:text="新粉丝" />
+
+        <ToggleButton
+            android:id="@+id/iv_switch_newfriends"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:background="@drawable/ios7_btn"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="false"
+            android:text=" "
+            android:textOff=" "
+            android:textOn=" "
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+    <FrameLayout
+        android:id="@+id/fl_setting_comment"
+        style="@style/QYRSettingItemStyle"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/QYRSettingItemLeftStyle"
+            android:layout_gravity="center_vertical"
+            android:text="评价" />
+
+        <ToggleButton
+            android:id="@+id/iv_switch_comment"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/ios7_btn"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="false"
+            android:gravity="right|center_vertical"
+            android:text=" "
+            android:textOff=" "
+            android:textOn=" "
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+    <FrameLayout
+        android:id="@+id/fl_setting_praise"
+        style="@style/QYRSettingItemStyle"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/QYRSettingItemLeftStyle"
+            android:layout_gravity="center_vertical"
+            android:text="赞" />
+
+        <ToggleButton
+            android:id="@+id/iv_switch_praise"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center_horizontal"
+            android:background="@drawable/ios7_btn"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="false"
+            android:text=" "
+            android:textOff=" "
+            android:textOn=" "
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <View style="@style/QYRSettingItemLineStyle" />
+
+</LinearLayout>

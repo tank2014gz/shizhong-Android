@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/black_2c2c2c"
+    android:layout_height="match_parent">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:background="@color/sz_yellow"
+         android:layout_height="@dimen/pickerview_topbar_height">
+         <ImageView
+             android:id="@+id/left_bt"
+             android:paddingLeft="12dp"
+             android:paddingRight="60dp"
+             android:paddingTop="10dp"
+             android:paddingBottom="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/back_icon"
+            android:layout_centerVertical="true"/>
+         <TextView
+             android:layout_centerInParent="true"
+             android:id="@+id/title_tv"
+             android:textSize="17sp"
+             android:textColor="@color/balck_353535"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="音乐列表"
+             />
+         <LinearLayout
+             android:layout_alignParentRight="true"
+             android:orientation="horizontal"
+             android:gravity="center_vertical"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+             <ImageView
+                 android:layout_marginRight="12dp"
+                 android:padding="12dp"
+                 android:id="@+id/search_btn"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/search_firends"
+                 />
+             <ImageView
+                 android:padding="12dp"
+                 android:id="@+id/btn_more"
+                 android:src="@drawable/more"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+
+         </LinearLayout>
+     </RelativeLayout>
+
+    <include
+        layout="@layout/pull_to_refresh_listview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

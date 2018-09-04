@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:id="@+id/sort_type"
+    android:paddingBottom="12dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:text="默认"
+    android:textSize="16sp"
+    android:background="@drawable/white_yellow_selector"
+    android:drawablePadding="10dp"
+    android:gravity="center_vertical"
+    android:textColor="@color/black_2c2b2b"
+    />
+
+</FrameLayout>

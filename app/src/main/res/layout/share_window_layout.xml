@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card_shadow" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/white_fefefe"
+        android:orientation="vertical"
+        android:paddingTop="12dp" >
+
+        <com.shizhong.view.ui.base.view.HorizontalListView
+            android:id="@+id/share_item_list"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" >
+        </com.shizhong.view.ui.base.view.HorizontalListView>
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/yellow_tab_selected_bg"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/cancel"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</FrameLayout>

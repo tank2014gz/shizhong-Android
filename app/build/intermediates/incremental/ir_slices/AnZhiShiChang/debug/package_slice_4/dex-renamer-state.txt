@@ -1,0 +1,4 @@
+#Tue Sep 04 11:51:22 CST 2018
+base.0=/Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/build/intermediates/transforms/dexMerger/AnZhiShiChang/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,1174 @@
+-- Merging decision tree log ---
+uses-permission#com.shizhong.view.ui.permission.JPUSH_MESSAGE
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:32:5-81
+	android:name
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:32:22-78
+category#com.shizhong.view.ui
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:234:17-61
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:265:17-61
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:276:17-61
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:310:17-61
+	android:name
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:234:27-58
+meta-data#UMENG_CHANNEL
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:341:9-343:54
+	android:value
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:343:13-51
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:342:13-41
+manifest
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/840ecbd6deedbfe3536f91539cefdfc0/AndroidManifest.xml:17:1-22:12
+MERGED from [:ijkplayer-java] /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/ijkplayer-java/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.0.0.aar/0f95a4e368f3a27d361f32f19a774350/AndroidManifest.xml:17:1-22:12
+MERGED from [:EaseUI_2_2_8] /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/fresco-0.11.0.aar/f3fae2c9cd8c39ccc7030beb2c0e6cf5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/drawee-0.11.0.aar/ff54ed57e656ce7a197f9e83c32c797e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.11.0.aar/4ef230a41897828e6f8008e23497b2b8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.11.0.aar/05ee4aa744ffc0e9eab2e3a02605ffb9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e26b5cb3ca5a4ed672f9b64538dd6939/AndroidManifest.xml:17:1-27:12
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/fbcore-0.11.0.aar/88651609ebeb35f53f8b0053e8541550/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+	package
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:1-649:12
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/840ecbd6deedbfe3536f91539cefdfc0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/840ecbd6deedbfe3536f91539cefdfc0/AndroidManifest.xml:20:5-43
+MERGED from [:ijkplayer-java] /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/ijkplayer-java/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-43
+MERGED from [:ijkplayer-java] /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/ijkplayer-java/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.0.0.aar/0f95a4e368f3a27d361f32f19a774350/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.0.0.aar/0f95a4e368f3a27d361f32f19a774350/AndroidManifest.xml:20:5-43
+MERGED from [:EaseUI_2_2_8] /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:EaseUI_2_2_8] /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/EaseUI_2_2_8/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/fresco-0.11.0.aar/f3fae2c9cd8c39ccc7030beb2c0e6cf5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/fresco-0.11.0.aar/f3fae2c9cd8c39ccc7030beb2c0e6cf5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/drawee-0.11.0.aar/ff54ed57e656ce7a197f9e83c32c797e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/drawee-0.11.0.aar/ff54ed57e656ce7a197f9e83c32c797e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.11.0.aar/4ef230a41897828e6f8008e23497b2b8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.11.0.aar/4ef230a41897828e6f8008e23497b2b8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.11.0.aar/05ee4aa744ffc0e9eab2e3a02605ffb9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.11.0.aar/05ee4aa744ffc0e9eab2e3a02605ffb9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e26b5cb3ca5a4ed672f9b64538dd6939/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e26b5cb3ca5a4ed672f9b64538dd6939/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/fbcore-0.11.0.aar/88651609ebeb35f53f8b0053e8541550/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/fbcore-0.11.0.aar/88651609ebeb35f53f8b0053e8541550/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e26b5cb3ca5a4ed672f9b64538dd6939/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:7:9-38
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:6:9-35
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:9:22-64
+permission#com.shizhong.view.ui.permission.JPUSH_MESSAGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:12:9-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:19:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:20:22-71
+uses-permission#getui.permission.GetuiService.com.shizhong.view.ui
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:24:5-90
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:24:22-87
+permission#getui.permission.GetuiService.com.shizhong.view.ui
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:26:5-29:18
+	android:protectionLevel
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:28:9-41
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:27:9-74
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:33:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:34:5-75
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:34:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:35:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:36:5-73
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:36:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:37:5-66
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:37:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:38:5-81
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:38:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:39:5-81
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:39:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:40:5-76
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:40:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:41:5-79
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:41:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:42:5-89
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:42:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:43:5-79
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:43:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:44:5-80
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:44:22-77
+uses-permission#android.permission.ACCESS_COARSE_UPDATES
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:45:5-80
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:45:22-77
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:46:5-68
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:46:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:47:5-69
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:47:22-66
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:48:5-68
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:48:22-65
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:49:5-72
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:49:22-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:50:5-71
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:50:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:51:5-74
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:51:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:52:5-74
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:52:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:53:5-80
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:53:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:54:5-85
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:54:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:55:5-75
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:55:22-72
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:56:5-82
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:56:22-79
+uses-permission#android.permission.CAMERA
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:57:5-65
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:57:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:58:5-81
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:58:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:59:5-68
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:59:22-65
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:60:5-84
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:60:22-81
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:61:5-71
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:61:22-68
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:62:5-71
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:62:22-68
+uses-permission#com.xiaomi.market.sdk.UPDATE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:63:5-68
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:63:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:65:5-66:23
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:65:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:68:5-69:23
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:68:22-76
+uses-feature#android.hardware.camera
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:71:5-73:35
+	android:required
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:73:9-32
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:72:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:74:5-76:36
+	android:required
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:76:9-33
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:75:9-57
+uses-feature#0x00020000
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:77:5-79:35
+	android:glEsVersion
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:78:9-41
+	android:required
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:79:9-32
+uses-permission#com.shizhong.view.ui.permission.C2D_MESSAGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:82:5-83
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:82:22-80
+permission#com.shizhong.view.ui.permission.C2D_MESSAGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:84:5-86:47
+	android:protectionLevel
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:86:9-44
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:85:9-67
+application
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:89:5-636:19
+MERGED from [com.android.support:support-v4:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e26b5cb3ca5a4ed672f9b64538dd6939/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /Users/hecaijing/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/e26b5cb3ca5a4ed672f9b64538dd6939/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:95:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:93:9-43
+	android:largeHeap
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:92:9-33
+	android:icon
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:94:9-42
+	android:allowBackup
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:91:9-35
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:96:9-40
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:90:9-63
+meta-data#PUSH_APPID
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:100:9-102:54
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:102:13-51
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:101:13-38
+meta-data#PUSH_APPKEY
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:104:9-106:54
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:106:13-51
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:105:13-39
+meta-data#PUSH_APPSECRET
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:108:9-110:54
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:110:13-51
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:109:13-42
+receiver#com.shizhong.view.ui.getui.receiver.PushGeTuiReceiver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:111:9-117:20
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:113:13-37
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:112:13-81
+intent-filter#action:name:com.igexin.sdk.action.hElayebTVh9ulFjtAdQ8GA
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:114:13-116:29
+action#com.igexin.sdk.action.hElayebTVh9ulFjtAdQ8GA
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:115:17-87
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:115:25-84
+service#com.igexin.sdk.PushService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:119:9-127:19
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:123:13-43
+	android:label
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:122:13-47
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:121:13-36
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:120:13-54
+intent-filter#action:name:com.igexin.sdk.action.service.message
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:124:13-126:29
+action#com.igexin.sdk.action.service.message
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:125:17-79
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:125:25-77
+service#com.igexin.sdk.PushServiceUser
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:129:9-132:54
+	android:label
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:132:13-51
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:131:13-36
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:130:13-58
+receiver#com.igexin.sdk.PushReceiver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:133:9-144:20
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:133:19-61
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MEDIA_MOUNTED+action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:com.igexin.sdk.action.refreshls
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:134:13-143:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:135:17-79
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:135:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:136:17-79
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:136:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:137:17-77
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:137:25-74
+action#com.igexin.sdk.action.refreshls
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:138:17-74
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:138:25-71
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:140:17-78
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:140:25-75
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:141:17-87
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:141:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:142:17-90
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:142:25-87
+receiver#com.igexin.sdk.PushManagerReceiver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:145:9-151:20
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:147:13-37
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:146:13-62
+intent-filter#action:name:com.igexin.sdk.action.pushmanager
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:148:13-150:29
+action#com.igexin.sdk.action.pushmanager
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:149:17-76
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:149:25-73
+activity#com.igexin.sdk.PushActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:152:9-158:75
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:156:13-43
+	android:excludeFromRecents
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:154:13-46
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:155:13-37
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:158:13-72
+	android:taskAffinity
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:157:13-67
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:153:13-55
+activity#com.igexin.sdk.GActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:159:9-165:75
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:163:13-43
+	android:excludeFromRecents
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:161:13-46
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:162:13-36
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:165:13-72
+	android:taskAffinity
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:164:13-67
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:160:13-52
+service#com.igexin.download.DownloadService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:166:9-168:46
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:168:13-43
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:167:13-63
+receiver#com.igexin.download.DownloadReceiver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:169:9-173:20
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:169:19-70
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:170:13-172:29
+provider#com.igexin.download.DownloadProvider
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:174:9-178:46
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:178:13-43
+	android:authorities
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:176:13-65
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:177:13-36
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:175:13-64
+activity#com.shizhong.view.ui.MainActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:181:9-186:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:183:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:185:13-60
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:184:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:182:13-61
+activity#com.shizhong.view.ui.Flash_Activity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:187:9-198:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:190:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:192:13-60
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:189:13-36
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:191:13-47
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:188:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:193:13-197:29
+action#android.intent.action.MAIN
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:194:17-69
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:194:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:196:17-77
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:196:27-74
+activity#com.shizhong.view.ui.LoginActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:199:9-205:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:202:13-49
+	android:label
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:201:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:204:13-64
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:203:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:200:13-62
+activity#com.shizhong.view.ui.ActivityNavigationImages
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:206:9-212:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:209:13-49
+	android:label
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:208:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:211:13-64
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:210:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:207:13-73
+activity#com.shizhong.view.ui.ActivityWelcom
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:213:9-218:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:215:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:217:13-60
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:216:13-68
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:214:13-63
+service#cn.jpush.android.service.DownloadService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:221:9-225:19
+	android:enabled
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:223:13-35
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:224:13-37
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:222:13-68
+activity#cn.jpush.android.ui.PushActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:226:9-236:20
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:230:13-37
+	android:configChanges
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:228:13-63
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:229:13-60
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:227:13-60
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:android.intent.category.DEFAULT+category:name:com.shizhong.view.ui
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:231:13-235:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:232:17-75
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:232:25-72
+category#android.intent.category.DEFAULT
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:233:17-76
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:233:27-73
+service#cn.jpush.android.service.PushService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:242:9-253:19
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:245:13-44
+	android:enabled
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:244:13-35
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:246:13-37
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:243:13-64
+intent-filter#action:name:cn.jpush.android.intent.PUSH_TIME+action:name:cn.jpush.android.intent.PushService+action:name:cn.jpush.android.intent.REGISTER+action:name:cn.jpush.android.intent.REPORT
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:247:13-252:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:248:17-75
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:248:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:249:17-73
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:249:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:250:17-78
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:250:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:251:17-76
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:251:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:257:9-267:19
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:260:13-44
+	android:enabled
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:259:13-35
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:261:13-36
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:258:13-66
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:com.shizhong.view.ui
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:262:13-266:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:263:17-80
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:263:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:270:9-288:20
+	android:enabled
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:272:13-35
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:273:13-37
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:271:13-65
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:com.shizhong.view.ui
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:274:13-277:29
+	android:priority
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:274:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:275:17-94
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:275:25-91
+intent-filter#action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:278:13-281:29
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:com.shizhong.view.ui
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:283:13-287:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:284:17-78
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:284:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:285:17-80
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:285:25-77
+data
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:286:17-63
+	android:scheme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:286:23-60
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:291:9-294:16
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:292:13-44
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:293:13-66
+receiver#com.shizhong.view.ui.jpush.JPushReciver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:297:9-312:20
+	android:process
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:299:13-44
+	android:enabled
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:300:13-35
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:298:13-67
+intent-filter#action:name:cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+action:name:cn.jpush.android.intent.UNREGISTRATION+category:name:com.shizhong.view.ui
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:302:13-311:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:303:17-79
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:303:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:304:17-81
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:304:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:305:17-83
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:305:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:306:17-88
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:306:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:307:17-86
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:307:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:308:17-91
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:308:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:309:17-77
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:309:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:315:9-317:49
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:317:13-46
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:316:13-41
+meta-data#JPUSH_APPKEY
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:318:9-320:56
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:320:13-53
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:319:13-40
+activity#com.shizhong.view.ui.RegNav1Activity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:322:9-327:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:324:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:326:13-64
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:325:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:323:13-64
+meta-data#UMENG_APPKEY
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:335:9-338:21
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:337:13-53
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:336:13-40
+activity#com.shizhong.view.ui.wxapi.WXEntryActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:348:9-353:75
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:352:13-49
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:351:13-36
+	android:configChanges
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:350:13-74
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:353:13-72
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:349:13-50
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:357:9-364:20
+	android:launchMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:360:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:363:13-68
+	android:noHistory
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:361:13-37
+	android:configChanges
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:359:13-57
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:362:13-50
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:358:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:366:9-378:20
+	android:launchMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:368:13-44
+	android:noHistory
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:369:13-37
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:367:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent1105004806
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:370:13-377:29
+action#android.intent.action.VIEW
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:371:17-69
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:371:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:374:17-78
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:374:27-75
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:379:9-382:75
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:381:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:382:13-72
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:380:13-69
+activity#com.shizhong.view.ui.FindBackPwdActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:383:9-387:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:385:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:386:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:384:13-68
+activity#com.shizhong.view.ui.RegFinishUserInfoActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:388:9-393:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:390:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:392:13-64
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:391:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:389:13-74
+activity#com.shizhong.view.ui.DanceClassChoiseActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:394:9-398:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:396:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:397:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:395:13-73
+activity#com.shizhong.view.ui.AgreementActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:399:9-403:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:401:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:402:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:400:13-66
+activity#com.shizhong.view.ui.video.ActivityMediaVideoRecorder
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:405:9-410:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:408:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:407:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:409:13-50
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:406:13-81
+activity#com.shizhong.view.ui.video.ActivityVideoPreviewWithLogo
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:411:9-416:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:414:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:413:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:415:13-50
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:412:13-83
+activity#com.shizhong.view.ui.ActivityCrewList
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:418:9-423:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:421:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:420:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:422:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:419:13-65
+activity#com.shizhong.view.ui.ActivityClubApply
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:424:9-429:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:427:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:426:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:428:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:425:13-66
+activity#com.shizhong.view.ui.ActivityClubDetail
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:430:9-435:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:433:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:432:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:434:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:431:13-67
+activity#com.shizhong.view.ui.ActivityJiequNearBy
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:436:8-441:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:439:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:438:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:440:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:437:13-68
+activity#com.shizhong.view.ui.ActivityTopicList
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:442:9-447:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:445:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:444:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:446:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:443:13-66
+activity#com.shizhong.view.ui.ActivityRankinglist
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:447:20-452:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:450:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:449:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:451:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:448:13-68
+activity#com.shizhong.view.ui.ActivityTopicDetail
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:453:9-458:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:456:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:455:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:457:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:454:13-68
+activity#com.shizhong.view.ui.ActivityMemberInfor
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:459:9-464:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:462:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:461:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:463:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:460:13-68
+activity#com.shizhong.view.ui.ActivityEvenetsAndNews
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:465:9-470:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:468:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:467:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:469:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:466:13-71
+activity#com.shizhong.view.ui.ActivitySetting
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:471:9-476:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:474:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:473:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:475:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:472:13-64
+activity#com.shizhong.view.ui.ActivitySettingLetterMessage
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:477:9-482:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:480:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:479:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:481:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:478:13-77
+activity#com.shizhong.view.ui.VideoPlayerActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:483:9-489:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:486:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:485:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:488:13-55
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:487:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:484:13-68
+activity#com.shizhong.view.ui.ActivitySettingMessage
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:490:9-495:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:493:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:492:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:494:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:491:13-71
+activity#com.shizhong.view.ui.ActivitySettingInviteFriends
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:496:9-501:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:499:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:498:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:500:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:497:13-77
+activity#com.shizhong.view.ui.ActivitySettingSuggess
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:502:9-507:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:505:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:504:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:506:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:503:13-71
+activity#com.shizhong.view.ui.ActivitySettingAbout
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:508:9-513:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:511:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:510:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:512:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:509:13-69
+activity#com.shizhong.view.ui.video.VideoCutOutActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:514:9-519:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:517:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:516:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:518:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:515:13-74
+activity#com.shizhong.view.ui.ActivityMessageTypes
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:520:9-525:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:523:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:522:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:524:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:521:13-69
+activity#com.shizhong.view.ui.ChatActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:526:9-531:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:529:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:528:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:530:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:527:13-61
+activity#com.shizhong.view.ui.ActivityNewsWebContent
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:532:9-537:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:535:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:534:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:536:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:533:13-71
+activity#com.shizhong.view.ui.ActivityUserModify
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:538:9-543:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:541:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:540:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:542:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:539:13-67
+activity#com.shizhong.view.ui.ActivityModifyNickName
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:544:9-549:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:547:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:546:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:548:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:545:13-71
+activity#com.shizhong.view.ui.ActivityModifySignture
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:550:9-555:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:553:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:552:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:554:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:551:13-71
+activity#com.shizhong.view.ui.video.ActivityVideoCoverChange
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:556:9-561:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:559:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:558:13-47
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:560:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:557:13-79
+activity#com.shizhong.view.ui.video.ActivityShareVideo
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:562:9-569:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:566:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:565:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:568:13-64
+	android:configChanges
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:564:13-74
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:567:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:563:13-73
+activity#com.shizhong.view.ui.ActivityAddFriends
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:570:9-577:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:574:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:573:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:576:13-64
+	android:configChanges
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:572:13-74
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:575:13-50
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:571:13-67
+meta-data#EASEMOB_APPKEY
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:580:9-582:49
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:582:13-46
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:581:13-42
+service#com.easemob.chat.EMChatService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:584:9-586:39
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:586:13-36
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:585:13-58
+service#com.amap.api.location.APSService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:589:9-590:19
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:589:18-65
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:592:9-595:21
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:594:13-61
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:593:13-50
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:597:9-600:39
+	android:enabled
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:599:13-35
+	android:exported
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:600:13-36
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:598:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:601:9-603:38
+	android:enabled
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:603:13-35
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:602:13-70
+receiver#com.xiaomi.market.sdk.DownloadCompleteReceiver
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:605:9-609:20
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:605:19-80
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:606:13-608:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:607:17-82
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:607:25-79
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:611:9-613:64
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:613:13-61
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:612:13-52
+activity#com.hyphenate.easeui.ui.EaseShowBigImageActivity
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:618:9-622:20
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:620:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:621:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:619:13-76
+activity#com.shizhong.view.ui.newapi.ActivityEventsAndNews
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:624:9-626:54
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:625:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:626:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:624:19-63
+activity#com.shizhong.view.ui.jiequ.ActivityJieQuMusicClassList
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:627:9-629:54
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:628:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:629:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:627:19-68
+activity#com.shizhong.view.ui.jiequ.ActivityMusicSingleClass
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:630:9-632:54
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:631:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:632:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:630:19-65
+activity#com.shizhong.view.ui.mine.ActivityMineMusicList
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:633:9-635:54
+	android:screenOrientation
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:634:13-49
+	android:theme
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:635:13-52
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:633:19-61
+permission#com.shizhong.view.ui.permission.MIPUSH_RECEIVE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:638:5-640:47
+	android:protectionLevel
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:640:9-44
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:639:9-70
+uses-permission#com.shizhong.view.ui.permission.MIPUSH_RECEIVE
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:642:5-86
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:642:22-83
+meta-data#com.hyphenate.easeui.utils.GlideConfiguration
+ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:644:5-646:39
+	android:value
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:646:9-36
+	android:name
+		ADDED from /Users/hecaijing/Desktop/otherProject/shizhong-Android/ShiZhongApp/app/src/main/AndroidManifest.xml:645:9-69

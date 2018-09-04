@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_262626"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/top_bar_layout_with_left_rigth2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp" >
+
+                <ImageView
+                    android:id="@+id/member_head_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/topic_detail_bg"
+                    android:visibility="visible" />
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/member_head"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    fresco:roundAsCircle="true"
+                    android:layout_gravity="center"
+                    fresco:actualImageScaleType="focusCrop"
+                    fresco:roundingBorderWidth="1dp"
+                    fresco:roundingBorderColor="@color/round_view_bound_color"
+                    fresco:placeholderImage="@drawable/sz_head_default"
+                    fresco:placeholderImageScaleType="centerCrop"
+                    />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/nickname_layout"
+                style="@style/item_layout" >
+
+                <TextView
+                    style="@style/tag_style"
+                    android:text="@string/nick_name" />
+
+                <TextView
+                    android:id="@+id/eidt_nick_name"
+                    style="@style/value_style"
+                    android:hint="昵称" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/item_layout" >
+
+                <TextView
+                    style="@style/tag_style"
+                    android:text="@string/gender" />
+
+                <TextView
+                    android:id="@+id/eidt_gender"
+                    style="@style/value_style"
+                    android:hint="性别（男/女）" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/birth_layout"
+                style="@style/item_layout" >
+
+                <TextView
+                    style="@style/tag_style"
+                    android:text="@string/birth" />
+
+                <TextView
+                    android:id="@+id/eidt_birth"
+                    style="@style/value_style"
+                    android:hint="出生日期" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/item_layout" >
+
+                <TextView
+                    style="@style/tag_style"
+                    android:text="@string/constellation" />
+
+                <TextView
+                    android:id="@+id/eidt_constellation"
+                    style="@style/value_style"
+                    android:hint="星座" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/place_layout"
+                style="@style/item_layout"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    style="@style/tag_style"
+                    android:text="@string/place" />
+
+                <TextView
+                    android:id="@+id/eidt_place"
+                    style="@style/value_style"
+                    android:hint="地区（省_市_县）" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/signture_layout"
+                style="@style/item_layout"
+                android:layout_marginTop="8dp" >
+
+                <TextView
+                    style="@style/tag_style"
+                    android:text="@string/signture" />
+
+                <TextView
+                    android:id="@+id/eidt_signture"
+                    style="@style/value_style"
+                    android:hint="个人签名" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

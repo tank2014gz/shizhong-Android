@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_262626"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/top_bar_layout_with_left_black" />
+
+    <LinearLayout
+        style="@style/edid_layout_style"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="24dp" >
+
+        <EditText
+            android:id="@+id/signture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top|left"
+            android:hint="@string/input_signture"
+            android:minLines="8"
+            android:padding="8dp"
+            android:paddingRight="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="#B1B1B1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

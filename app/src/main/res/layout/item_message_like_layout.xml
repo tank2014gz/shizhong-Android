@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/item_view"
+        android:descendantFocusability="blocksDescendants"
+        style="@style/item_layout_style" >
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/head_image"
+            android:layout_width="@dimen/head_samll_size"
+            android:layout_height="@dimen/head_samll_size"
+            fresco:roundAsCircle="true"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundingBorderWidth="2dp"
+            android:layout_gravity="center_vertical"
+            fresco:roundingBorderColor="@color/round_view_bound_color"
+            fresco:placeholderImage="@drawable/sz_head_default"
+            fresco:placeholderImageScaleType="centerCrop"
+            />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/video_cover"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_alignParentRight="true"
+            fresco:placeholderImage="@drawable/sz_activity_default"
+            fresco:placeholderImageScaleType="centerCrop"
+            android:src="@drawable/sz_activity_default" />
+
+        <com.shizhong.view.ui.base.view.NoFocationTextView
+            android:id="@+id/nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:clickable="false"
+            android:layout_toLeftOf="@+id/video_cover"
+            android:layout_toRightOf="@+id/head_image"
+            android:textColor="@color/white_fefefe" />
+    </RelativeLayout>
+
+    <View   android:clickable="false"
+        android:focusable="false"
+        style="@style/QYRSettingItemLineStyle" />
+
+</FrameLayout>

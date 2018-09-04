@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/topic_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:roundAsCircle="false"
+        fresco:roundedCornerRadius="5dp"
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="true"
+        fresco:roundBottomLeft="true"
+        fresco:roundBottomRight="true"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:roundingBorderWidth="1dp"
+        fresco:roundingBorderColor="@color/round_view_bound_color"
+        fresco:placeholderImage="@drawable/sz_activity_default"
+        fresco:placeholderImageScaleType="centerCrop"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:id="@+id/flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4D000000" />
+
+    <TextView
+        android:id="@+id/topic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="#street boy 全城热舞"
+        android:textColor="@color/white_fefefe" />
+
+</FrameLayout>
